@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+
+input, textarea{
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+#task{
+    height: 150px;
+    width: 30%;
+    vertical-align: top;
+}
+
+.task-manager{
+    display: flex;
+    gap: 10px;
+}
+
+.task-manager div {
+    display: block;
+    padding: 5px;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.to-do div{
+    background-color: beige;
+}
+
+.do div {
+    background-color: green;
+}
